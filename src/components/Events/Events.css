@@ -1,0 +1,49 @@
+.events {
+    background-color: rgba(255, 94, 0, 0.877);
+    height: 100vh;
+    position: relative;
+}
+
+.card {
+    position: relative;
+    width: 180px;
+    height: 240px;
+    
+    background-image: url('./Event_vector/card_corner.png')
+}
+.event-details {
+    background-color: grey;
+}
+.card-content{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 130px;
+    height: 170px;
+    
+}
+.event-details {
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+}
+.event-details::-webkit-scrollbar {
+    display: none;
+  }
+.events-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.row-1 {
+    display: flex;
+}
+.row-2 {
+    display: flex;
+}
+
+.event-vector {
+    position: absolute;
+}
