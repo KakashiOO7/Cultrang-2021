@@ -22,14 +22,20 @@
     height: 170px;
     
 }
-.event-details {
+.poster {
+    height: 160px;
+    width: 130px;
+    
+}
+.event-name {
+    height: 10px;
+   
+}
+.poster-img {
     height: 100%;
     width: 100%;
-    overflow: scroll;
 }
-.event-details::-webkit-scrollbar {
-    display: none;
-  }
+
 .events-content {
     display: flex;
     flex-direction: column;
