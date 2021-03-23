@@ -126,82 +126,32 @@ function ProEvents() {
             <Carousel.Item>
               <div className="mobile-event">
                 <div className="mobile-event-row1">
-                  {/* <Card
-                    id={events[0].id}
-                    eventName={events[0].eventName}
-                    icon={events[0].icon}
-                  /> */}
                   <Card
                     id={events[1].id}
                     eventName={events[1].eventName}
-                    icon={events[1].icon}
+                    icon={events[1].poster}
                   />
                 </div>
                 <div className="mobile-event-row2">
-                  {/* <Card
+                  <Card
                     id={events[2].id}
                     eventName={events[2].eventName}
-                    icon={events[2].icon}
+                    icon={events[2].poster}
                   />
-                  <Card
-                    id={events[3].id}
-                    eventName={events[3].eventName}
-                    icon={events[3].icon}
-                  /> */}
                 </div>
               </div>
             </Carousel.Item>
             <Carousel.Item>
               <div className="mobile-event">
                 <div className="mobile-event-row1">
-                  {/* <Card
-                    id={events[4].id}
-                    eventName={events[4].eventName}
-                    icon={events[4].icon}
-                  /> */}
-                  {/* <Card
-                    id={events[5].id}
-                    eventName={events[5].eventName}
-                    icon={events[5].icon}
-                  />
-                </div>
-                <div className="mobile-event-row2">
                   <Card
-                    id={events[6].id}
-                    eventName={events[6].eventName}
-                    icon={events[6].icon}
+                    id={events[3].id}
+                    eventName={events[3].eventName}
+                    icon={events[3].poster}
                   />
-                  <Card
-                    id={events[7].id}
-                    eventName={events[7].eventName}
-                    icon={events[7].icon}
-                  /> */}
                 </div>
               </div>
             </Carousel.Item>
-            {/* <Carousel.Item>
-              <div className="mobile-event">
-                <div className="mobile-event-row1">
-                  <Card
-                    id={events[8].id}
-                    eventName={events[8].eventName}
-                    icon={events[8].icon}
-                  />
-                  <Card
-                    id={events[9].id}
-                    eventName={events[9].eventName}
-                    icon={events[9].icon}
-                  />
-                </div>
-                <div className="mobile-event-row2">
-                  <Card
-                    id={events[10].id}
-                    eventName={events[10].eventName}
-                    icon={events[10].icon}
-                  />
-                </div>
-              </div>
-            </Carousel.Item> */}
           </Carousel>
         </div>
       )}
