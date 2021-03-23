@@ -129,14 +129,14 @@ function ProEvents() {
                   <Card
                     id={events[1].id}
                     eventName={events[1].eventName}
-                    icon={events[1].poster}
+                    icon={events[1].icon}
                   />
                 </div>
                 <div className="mobile-event-row2">
                   <Card
                     id={events[2].id}
                     eventName={events[2].eventName}
-                    icon={events[2].poster}
+                    icon={events[2].icon}
                   />
                 </div>
               </div>
@@ -147,7 +147,7 @@ function ProEvents() {
                   <Card
                     id={events[3].id}
                     eventName={events[3].eventName}
-                    icon={events[3].poster}
+                    icon={events[3].icon}
                   />
                 </div>
               </div>
@@ -160,11 +160,6 @@ function ProEvents() {
           <Carousel.Item>
             <div className="tab-event">
               <div className="tab-event-row1">
-                {/* <Card
-                  id={events[0].id}
-                  eventName={events[0].eventName}
-                  icon={events[0].icon}
-                /> */}
                 <Card
                   id={events[1].id}
                   eventName={events[1].eventName}
@@ -177,21 +172,11 @@ function ProEvents() {
                 />
               </div>
               <div className="tab-event-row2">
-                {/* <Card
+                <Card
                   id={events[3].id}
                   eventName={events[3].eventName}
                   icon={events[3].icon}
                 />
-                <Card
-                  id={events[4].id}
-                  eventName={events[4].eventName}
-                  icon={events[4].icon}
-                /> */}
-                {/* <Card
-                  id={events[5].id}
-                  eventName={events[5].eventName}
-                  icon={events[5].icon}
-                /> */}
               </div>
             </div>
           </Carousel.Item>
