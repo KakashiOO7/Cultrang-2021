@@ -21,7 +21,7 @@ const Home = () => {
 										<a href='#events'>EVENTS</a>
 									</div>
 									<div className='item item4'>
-										<a href='#pro-events'>PRO EVENTS</a>
+										<a href='#proevents'>PRO EVENTS</a>
 									</div>
 									<div className='item item5'>
 										<a href='#sponsor'>SPONSOR</a>

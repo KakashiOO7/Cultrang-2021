@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+.proevents {
+  background: radial-gradient(farthest-side, #e63e9a, #c03095);
+  height: 100vh;
+  position: relative;
+}
+
+a {
+  color: black;
+}
+.pro-Card {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin: 100px;
+}
+
+.card-content {
+  /* position: absolute;
+  top: 10px;
+  width: 95%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+.pro-poster {
+  height: 200px;
+  width: 300px;
+}
+
+.pro-poster-img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+.event-name {
+  text-align: left;
+  font-family: "Montserrat";
+}
+.events-content {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100%;
+}
+.row-1,
+.row-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.event-vector {
+  position: absolute;
+}
+.event-name {
+  font-size: 12px;
+}
+
+.mobile-card {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mobile-event-row1,
+.mobile-event-row2 {
+  display: flex;
+}
+.mobile-event-vector {
+  display: none;
+}
+.tab-card {
+  display: none;
+}
+
+.carousel-inner {
+  padding: 60px;
+}
+@media only screen and (max-width: 1220px) {
+  .tab-card {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tab-event-row1,
+  .tab-event-row2 {
+    display: flex;
+  }
+  .events-content {
+    display: none;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .events {
+    scroll-snap-align: center;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .tab-card {
+    display: none;
+  }
+  .event-vector {
+    display: none;
+  }
+  .mobile-event-vector {
+    display: block;
+    position: absolute;
+  }
+  .Card {
+    position: relative;
+    width: 36vw;
+    height: 30vh;
+    margin: 10px;
+  }
+  .card-corner {
+    width: 100%;
+    height: 100%;
+  }
+  .card-content {
+    position: absolute;
+    top: 10px;
+    width: 91%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .poster {
+    height: 80%;
+    width: 70%;
+    background-color: #b7b7b7;
+  }
+  .poster-img {
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+  }
+  .event-name {
+    height: 20%;
+    text-align: left;
+    font-size: 10px;
+  }
+  .carousel-inner {
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .Card {
+    position: relative;
+    width: 36vw;
+    height: 29vh;
+    margin: 10px;
+  }
+  .poster {
+    height: 75%;
+    width: 70%;
+    background-color: #b7b7b7;
+  }
+  .poster-img {
+    padding: 8px;
+  }
+  .event-name {
+    font-size: 2.5vw;
+  }
+}
