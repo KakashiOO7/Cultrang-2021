@@ -21,7 +21,7 @@ function ProEvents() {
   });
   const Card = ({ id, eventName, icon }) => {
     return (
-      <div className="Card">
+      <div className="pro-Card">
         {/* <img src={cardCorner} className="card-corner" /> */}
         <div className="card-content">
           <div className="pro-poster">
@@ -88,7 +88,7 @@ function ProEvents() {
         <div className="events-content">
           <div className="row-1">
             {events.map((event, index) => {
-              if (index <= 2) {
+              if (index < 2) {
                 return (
                   <Card
                     id={event.id}
@@ -101,7 +101,7 @@ function ProEvents() {
           </div>
           <div className="row-2">
             {events.map((event, index) => {
-              if (index > 2) {
+              if (index >= 2) {
                 return (
                   <Card
                     id={event.id}
